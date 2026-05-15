@@ -1,0 +1,5 @@
+# Normalize line endings
+* text=auto
+
+# Keep data files as-is
+*.csv text eol=lf
