@@ -8,12 +8,6 @@
 A web app that predicts loan applicant credit risk using a machine learning
 model trained on the German Credit Risk dataset (1,000 applicants, 20 features).
 
-## Results
-| Metric | Score |
-|--------|-------|
-| ROC-AUC | X.XX |
-| F1-Score (Bad Credit) | X.XX |
-
 ## Stack
 Python · scikit-learn · Streamlit · pandas · imbalanced-learn
 
