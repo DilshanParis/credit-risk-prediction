@@ -1,22 +1,21 @@
+
 # Credit Risk Prediction System
 
-Predicts whether a loan applicant will default using machine learning.
-Built with scikit-learn, using a full Pipeline, SMOTE, and GridSearchCV.
+## Live Demo
+[Try the app here](https://credit-risk-prediction-27468zx82zfalfio7rufcf.streamlit.app/)
+
+## What It Does
+A web app that predicts loan applicant credit risk using a machine learning
+model trained on the German Credit Risk dataset (1,000 applicants, 20 features).
 
 ## Results
 | Metric | Score |
 |--------|-------|
-| ROC-AUC (Test) | X.XX |
+| ROC-AUC | X.XX |
 | F1-Score (Bad Credit) | X.XX |
-| Accuracy (Test) | X.XX% |
 
-## Workflow
-- **Project setup**: VS Code + Python virtual environment
-- **Notebooks & training**: Google Colab (free GPU)
-- **Version control**: Git + GitHub
-
-## Tech Stack
-Python | scikit-learn | pandas | matplotlib | imbalanced-learn
+## Stack
+Python · scikit-learn · Streamlit · pandas · imbalanced-learn
 
 ## Key Techniques
 - scikit-learn Pipelines + ColumnTransformer
@@ -24,5 +23,13 @@ Python | scikit-learn | pandas | matplotlib | imbalanced-learn
 - GridSearchCV with 5-fold cross-validation
 - 4-model comparison with ROC-AUC based selection
 
-## Run in Colab
+## Run Locally
+```bash
+git clone https://github.com/DilshanParis/credit-risk-prediction
+cd credit-risk-prediction
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+[![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-risk-prediction-27468zx82zfalfio7rufcf.streamlit.app/)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dDevv2oipLv00hA56Yg20IBYZosbNKJk?usp=sharing)
