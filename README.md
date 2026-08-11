@@ -25,5 +25,5 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-[![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-risk-prediction-27468zx82zfalfio7rufcf.streamlit.app/)
+[![Open App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-risk-prediction-vxvegxubn2kmhvadgeqwwq.streamlit.app/)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dDevv2oipLv00hA56Yg20IBYZosbNKJk?usp=sharing)
